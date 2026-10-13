@@ -1,0 +1,14 @@
+{
+ "name": "v076_giant",
+ "note": "Algorithm queue #12, third run (Oct 13): SPSA on v076's endgame-giant and trickle-feeding constants. v075's giant (+17 Elo locally, ladder 45% -> 52%) is today's only measured gain; three hand-made follow-ups (v077 seeds, v078 reverse split, v079 no rescue peel) came out even or worse.",
+ "params": [
+  {"name": "GIANT_MIN", "decl": "constexpr int GIANT_MIN = {v};", "match": "constexpr int GIANT_MIN = ", "value": 10, "min": 6, "max": 16, "c": 2, "int": true},
+  {"name": "GIANT_MARGIN", "decl": "constexpr int GIANT_MARGIN = {v};", "match": "constexpr int GIANT_MARGIN = ", "value": 6, "min": 2, "max": 12, "c": 2, "int": true},
+  {"name": "LONG_FROM", "decl": "constexpr int LONG_FROM = {v};", "match": "constexpr int LONG_FROM = ", "value": 150, "min": 50, "max": 300, "c": 30, "int": true},
+  {"name": "LONG_LEN", "decl": "constexpr int LONG_LEN = {v};", "match": "constexpr int LONG_LEN = ", "value": 10, "min": 6, "max": 16, "c": 2, "int": true},
+  {"name": "TRICKLE_MIN_UNITS", "decl": "constexpr int TRICKLE_MIN_UNITS = {v};", "match": "constexpr int TRICKLE_MIN_UNITS = ", "value": 10, "min": 4, "max": 20, "c": 3, "int": true},
+  {"name": "TRICKLE_PENDING", "decl": "constexpr int TRICKLE_PENDING = {v};", "match": "constexpr int TRICKLE_PENDING = ", "value": 2, "min": 1, "max": 5, "c": 1, "int": true},
+  {"name": "TRICKLE_FROM", "decl": "constexpr int TRICKLE_FROM = {v};", "match": "constexpr int TRICKLE_FROM = ", "value": 200, "min": 100, "max": 350, "c": 30, "int": true},
+  {"name": "LONG_RESCUE", "decl": "constexpr double LONG_RESCUE = {v};", "match": "constexpr double LONG_RESCUE = ", "value": 0.25, "min": 0.0, "max": 0.5, "c": 0.08, "int": false}
+ ]
+}

@@ -1,0 +1,6 @@
+unswbc==1.2.11          # the competition toolkit: local engine, sandbox, CLI
+pycapnp==2.2.4          # replay files are Cap'n Proto (tools/schema/replay.capnp)
+numpy==2.4.4
+torch==2.5.1            # imitation opponents (lab.clones) and the queen network (lab.queen_nn)
+beautifulsoup4==4.15.0  # lab.docs_sync
+markdownify==1.2.3      # lab.docs_sync

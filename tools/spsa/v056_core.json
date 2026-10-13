@@ -1,0 +1,16 @@
+{
+ "name": "v056_core",
+ "note": "Algorithm queue #12 (Ben, Oct 11): SPSA on v056's hand-set queen-safety, sprint, eating and feeding constants, after nine hand-made candidates failed lab.sprt in a row.",
+ "params": [
+  {"name": "QHOME_LEASH", "decl": "constexpr int QHOME_LEASH = {v};", "match": "constexpr int QHOME_LEASH = ", "value": 4, "min": 1, "max": 10, "c": 1.5, "int": true},
+  {"name": "QHOME_W", "decl": "constexpr double QHOME_W = {v};", "match": "constexpr double QHOME_W = ", "value": 2.0, "min": 0.3, "max": 6.0, "c": 0.6, "int": false},
+  {"name": "QTRAP_PEN", "decl": "constexpr double QTRAP_PEN = {v}, QTRAP_W = 2.0;", "match": "constexpr double QTRAP_PEN = ", "value": 80.0, "min": 20.0, "max": 200.0, "c": 20.0, "int": false},
+  {"name": "QSAFE2_PEN", "decl": "constexpr double QSAFE2_PEN = {v};", "match": "constexpr double QSAFE2_PEN = ", "value": 45.0, "min": 10.0, "max": 120.0, "c": 12.0, "int": false},
+  {"name": "QEXIT_PEN", "decl": "constexpr double QEXIT_PEN = {v};", "match": "constexpr double QEXIT_PEN = ", "value": 25.0, "min": 5.0, "max": 60.0, "c": 6.0, "int": false},
+  {"name": "QFLEE_W", "decl": "constexpr double QFLEE_W = {v};", "match": "constexpr double QFLEE_W = ", "value": 1.5, "min": 0.3, "max": 4.0, "c": 0.4, "int": false},
+  {"name": "QS_MIN_GAIN", "decl": "constexpr double QS_MIN_GAIN = {v};", "match": "constexpr double QS_MIN_GAIN = ", "value": 1.0, "min": 0.0, "max": 4.0, "c": 0.5, "int": false},
+  {"name": "QS_DANGER_W", "decl": "constexpr double QS_DANGER_W = {v};", "match": "constexpr double QS_DANGER_W = ", "value": 6.0, "min": 1.0, "max": 15.0, "c": 1.5, "int": false},
+  {"name": "EAT_NOW_BONUS", "decl": "constexpr double EAT_NOW_BONUS = {v};", "match": "constexpr double EAT_NOW_BONUS = ", "value": 3.0, "min": 0.5, "max": 8.0, "c": 0.8, "int": false},
+  {"name": "CONS_BASE", "decl": "constexpr int CONS_BASE = {v};", "match": "constexpr int CONS_BASE = ", "value": 30, "min": 10, "max": 60, "c": 6, "int": true}
+ ]
+}

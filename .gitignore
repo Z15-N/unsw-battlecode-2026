@@ -1,0 +1,9 @@
+# local data the tools create (replays, databases, models) - not part of the repo
+data/
+runs/
+build/
+*.replay
+*.exe
+*.o
+__pycache__/
+*.pyc

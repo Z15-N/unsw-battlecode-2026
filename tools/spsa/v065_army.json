@@ -1,0 +1,16 @@
+{
+ "name": "v065_army",
+ "note": "Algorithm queue #12, second run (Ben, Oct 12): SPSA on v065's army and farming constants. The first run (v056_core) gave v065 (+5% total length); queen-safety hand changes keep coming out neutral locally, farming and army play are what self-play measures well.",
+ "params": [
+  {"name": "AREA_PER_UNIT", "decl": "constexpr int AREA_PER_UNIT = {v};", "match": "constexpr int AREA_PER_UNIT = ", "value": 12, "min": 6, "max": 24, "c": 3, "int": true},
+  {"name": "CHILD_SPLIT_LEN", "decl": "constexpr int CHILD_SPLIT_LEN = {v};", "match": "constexpr int CHILD_SPLIT_LEN = ", "value": 4, "min": 4, "max": 6, "c": 1, "int": true},
+  {"name": "KING_SPLIT_LEN", "decl": "constexpr int KING_SPLIT_LEN = {v};", "match": "constexpr int KING_SPLIT_LEN = ", "value": 5, "min": 4, "max": 8, "c": 1, "int": true},
+  {"name": "GAMMA", "decl": "constexpr double GAMMA = {v};", "match": "constexpr double GAMMA = ", "value": 0.75, "min": 0.5, "max": 0.95, "c": 0.05, "int": false},
+  {"name": "EAT_BONUS", "decl": "constexpr double EAT_BONUS = {v};", "match": "constexpr double EAT_BONUS = ", "value": 2.0, "min": 0.0, "max": 5.0, "c": 0.5, "int": false},
+  {"name": "FEED_RADIUS", "decl": "constexpr int FEED_RADIUS = {v};", "match": "constexpr int FEED_RADIUS = ", "value": 3, "min": 1, "max": 6, "c": 1, "int": true},
+  {"name": "TRICKLE_FROM", "decl": "constexpr int TRICKLE_FROM = {v};", "match": "constexpr int TRICKLE_FROM = ", "value": 200, "min": 100, "max": 350, "c": 30, "int": true},
+  {"name": "ENEMY_ADJ", "decl": "constexpr double ENEMY_ADJ = {v};", "match": "constexpr double ENEMY_ADJ = ", "value": 1.0, "min": 0.0, "max": 4.0, "c": 0.4, "int": false},
+  {"name": "KING_PREELECT", "decl": "constexpr int KING_PREELECT = {v};", "match": "constexpr int KING_PREELECT = ", "value": 30, "min": 10, "max": 80, "c": 10, "int": true},
+  {"name": "TARGET_GAMMA", "decl": "constexpr double TARGET_GAMMA = {v};", "match": "constexpr double TARGET_GAMMA = ", "value": 0.85, "min": 0.6, "max": 0.97, "c": 0.04, "int": false}
+ ]
+}
