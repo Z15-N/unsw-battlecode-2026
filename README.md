@@ -1,8 +1,21 @@
-# Battlecode 2026: a C++ game AI and the pipeline that tested it
+# UNSW Battlecode 2026: a C++ game AI and the pipeline that tested it
+
+**Rank 55–65 of 342 teams (peak 46)** · **80+ versions in 3 weeks** · **52,000 local games** ·
+**every release statistically gated**
+
+<p align="center">
+  <img src="docs/img/athena.gif" width="640"
+       alt="A ranked game on the map Athena: our blue army against an orange one rated 1986. The enemy queen is killed in round 132, and by round 500 our queen is 152 segments long.">
+</p>
+<p align="center"><sub>A real ranked win, rendered from its replay with <a href="tools/render_replay.py"><code>tools/render_replay.py</code></a>.
+Our queen (gold ring, right) stays 2–3 long early on, the enemy queen is killed in round 132, and by round 500 our
+army has fed our queen to 152 segments.</sub></p>
 
 My team's bot for [UNSW Battlecode 2026](https://battlecode.au) (Sep 21 – Oct 17, 2026), plus the testing and
-release pipeline we built around it. In three weeks the bot went through 80+ versions and 49 uploads to the live
-ladder. From Oct 11 on, every candidate was gated by a sequential statistical test against the version before it.
+release pipeline we built around it. UNSW Battlecode is a programming competition in which teams write
+the AI for an army of units and play each other on a public ladder. In three weeks our bot went through
+80+ versions and 49 uploads to the live ladder. From Oct 11 on, every candidate was gated by a sequential statistical
+test against the version before it.
 
 ## The game
 
@@ -157,6 +170,7 @@ tools/lab/           the pipeline: scout, track, arena, sprt, spsa, duel, releas
 tools/analysis/      a selection of the 130+ one-off analysis scripts (queen deaths, farming, map topology, ...)
 tools/clone/         the imitation-bot template and the C++ feature extractor
 tools/gen_maps.py    map data -> maps.hpp
+tools/render_replay.py   replay -> animated GIF (the one at the top)
 notebook/            the raw working notes and process rules, unedited (STRATEGY, WORKFLOW, GOALS)
 docs/                architecture, pipeline and results write-ups
 ```
